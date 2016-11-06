@@ -1,0 +1,520 @@
+/***************************
+*Basic Layout Mobile Device*
+***************************/
+
+p {
+	font-family: monospace;
+	color:#9ea0a3;
+}
+
+h1, h2 {
+	font-family: monospace;
+	color: #3b3c3d;
+	margin-bottom: 0;
+}
+
+.wrapper {
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: 1px solid #77787a;
+}
+
+.profile-png {
+	border-bottom: 1px solid #77787a;
+	margin: 0 auto;
+}
+
+.profile-png img {
+	display: block;
+	max-width: 45%;
+	margin: 0 auto;
+}
+
+.profile-png p {
+	max-width: 90%;
+	font-size: 1.1em;
+	margin: 20px;
+}
+
+.profile-png a {
+	font-size: 1.1em;
+	font-family: monospace;
+	color:#9ea0a3;
+	text-decoration: none;
+	
+}
+
+#header {
+	background: #edf1f7;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.name {
+	max-width: 100%;
+	text-align:center;
+	padding: 15px 0 0 0;
+}
+
+.nav-bar {
+	max-width: 100%;
+	margin: 30px 10px;
+	padding-bottom: 20px;
+}
+
+.nav-bar a {
+	max-width: 60%;
+	background: white;
+	font-family: monospace;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #3b3c3d;
+	display: block;
+	text-decoration: none;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding: 10px 35px;
+	
+}
+.portfolio h2 {
+	margin-bottom: 30px;
+}
+
+.project img {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.project p {
+	max-width: 90%;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom:35px;
+	margin-top: 10px;
+}
+
+.project h2 {
+	max-width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 15px;
+	padding-bottom: 10px;
+}
+
+.project {
+	display: block;
+}
+
+.footer {
+	
+	border-top: 1px solid #77787a;
+	clear: both;
+}
+
+.footer, p {
+	font-family: monospace;
+	max-width: 100%;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.footer p {
+	line-height:1.5;
+	font-family: monospace;
+	max-width: 70%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.contact p span {
+	font-size: 1em;
+	color: #813889;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+ 
+.mobile-footer {
+	margin-top: 12.5px;
+	border-top: 1px solid #77787a;
+	padding-top: 10px;
+	max-width: 100%;
+	text-align: center;
+	height: 25px;
+	background: #edf1f7;
+}
+
+.mobile-footer h2 {
+	margin: 0 0 0 5px;
+	margin-bottom: 10px;
+	font-family: monospace;
+	float: left;
+	font-size: 1em;
+}
+
+.mobile-footer .footer-anchor {
+	margin: 0 5px 0 0;
+	margin-bottom: 10px;
+	font-family: monospace;
+	font-weight: bold; 
+	float: right;
+	font-size: 1em;
+	color: #3b3c3d;
+	text-decoration: none;
+}
+
+.footer-wide {
+	display: none;
+}
+
+/***************************
+*Basic Layout Tablet Device*
+***************************/
+
+@media (min-width: 768px){
+	
+.nav-bar a {
+	display: inline;
+}
+
+.profile-png {
+	display: inline-block;
+	border-bottom: 1px solid #77787a;
+	margin: 0 auto;
+}
+
+.profile-png img {
+	float: right;
+	display: inline-block;
+	max-width: 25%;
+	margin: 25px;
+	
+}
+
+.profile-png p {
+	line-height: 1.5;
+	max-width: 60%;
+	font-size: 1.4em;
+	padding: 70px 5px;
+}
+
+.wrapper h2 {
+	font-size: 1.8em;
+
+}
+
+.project {
+	display: inline-block;
+	max-width: 49%;
+}
+
+.project img {
+	max-width: 70%;
+}
+
+.project p {
+	line-height: 1.15;
+	max-width: 80%;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+
+.project h2 {
+	max-width: 80%;
+	font-size: 1.5em;
+}
+
+.wrapper {
+	max-width: 100%;
+}
+
+.footer h3 {
+	text-align: center;
+	font-size: 1.6em;
+}
+
+.footer p {
+	font-size: 1.2em;
+	line-height: 1.4;
+}
+	
+.mobile-footer {
+	display: none;
+}
+
+.footer-wide { 
+	background: #edf1f7;
+	max-width: 100%;
+	display: block;
+	margin: 5px;
+	height: 40px;
+}
+
+.footer-name {
+	display: inline-block;
+	text-align: center;
+	float: left;
+	text-decoration: none;
+	font-family: monospace;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #3b3c3d;
+	margin-left: 25px;
+}
+
+.footer-link {
+	display: inline-block;
+	float: right;
+	text-decoration: none;
+	font-family: monospace;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #3b3c3d;
+	margin-right: 25px;
+	padding-top: 15px;
+}
+
+}
+
+/****************************
+*Basic Layout Desktop Device*
+****************************/
+
+@media (min-width:1025px) {
+
+#header {
+	background: #edf1f7;
+	max-width: 100%;
+	height: 80px;
+}
+#header h1 {
+	display: inline-block;
+	margin-top: 13px;
+	margin-left: 15px;
+}
+
+.name {
+	float: left;
+}
+
+.nav-bar {
+	text-align: right;
+	display: inline;
+	float: right;
+	margin-top: 28px;
+	padding: 5px 25px;
+}
+.nav-bar a {
+	text-align: right;
+	padding: 5px 25px;
+	margin-right: 10px;
+	font-size: 1.5em;
+	display: inline;
+}
+
+.profile-png img {
+	max-height: 350px;
+	margin-right: 150px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.profile-png p {
+	margin: 0px 25px;
+	font-size: 1.5em;
+}
+
+.project {
+	display: inline-block;
+	max-width: 32%;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+}
+
+.project img {
+	text-align: center;
+	max-width: 90%;
+}
+
+.project p {
+	line-height: 1.15;
+	max-width: 75%;
+	font-size: 1.1em;
+	margin-bottom: 20px;
+}
+
+.project h2 {
+	max-width: 90%;
+	font-size: 1.5em;
+	padding: 0;
+}	
+	
+}
+
+
+
+/****************************
+*********Clear Fix***********
+****************************/
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+/***************************
+*****Skills Page Layout*****
+***************************/
+
+.skills {
+	font-size: 1.8em;
+	max-width: 80%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.HTML-Skills {
+	margin-bottom: 25px;
+}
+
+.HTML-Skills h2 {
+	font-size: 1.5em;
+	display: block;
+	max-width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
+.HTML-Skills p {
+	font-size: 1.2em;
+	display: block;
+	max-width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.HTML-Skills img {
+	display: block;
+	max-width: 40%;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	border: 3px solid black;
+	border-radius: 10%;
+}
+
+.CSS-Skills h2 {
+	font-size: 1.5em;
+	display: block;
+	max-width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.CSS-Skills p {
+	font-size: 1.2em;
+	display: block;
+	max-width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.CSS-Skills img {
+	display: block;
+	max-width: 40%;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	border: 3px solid black;
+	border-radius: 10%;
+}
+
+.CSS-Skills {
+	margin-bottom: 25px;
+}
+
+@media (min-width: 720px){
+	
+.skills {
+	font-size: 2em;
+	max-width: 100%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.HTML-Skills {
+	max-width: 48%;
+	float: left;
+	display: inline-block;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+
+.HTML-Skills h2 {
+	font-size: 2em;
+	display: block;
+	max-width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+.HTML-Skills p {
+	font-size: 1.2em;
+	display: block;
+	max-width: 75%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.HTML-Skills img {
+	display: block;
+	max-width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	max-width: 40%;
+}
+
+.CSS-Skills {
+	max-width: 48%;
+	float: right;
+	display: inline-block;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	
+}	
+.CSS-Skills h2 {
+	font-size: 2em;
+	display: block;
+	max-width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.CSS-Skills p {
+	font-size: 1.2em;
+	display: block;
+	max-width: 75%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.CSS-Skills img {
+	display: block;
+	max-width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	max-width: 40%;
+}
+}
